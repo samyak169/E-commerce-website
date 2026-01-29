@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Forgot Password | FashionFi</title>
+  <link rel="stylesheet" href="forgetpass.css" />
+</head>
+<body>
+  <div class="signin-container">
+    <div class="logo">FashionFi</div>
+    <h2>Forgot Password</h2>
+    <p style="text-align: center; margin-bottom: 1rem; color: #666;">
+      Enter your email to receive password reset instructions.
+    </p>
+    <form onsubmit="handleForgotPassword(event)">
+      <div class="form-group">
+        <label for="forgot-email">Email Address</label>
+        <input type="email" id="forgot-email" placeholder="you@example.com" required />
+      </div>
+      <button type="submit" class="btn-signin">Send Reset Link</button>
+    </form>
+    <div class="signup-link">
+      Remember your password? <a href="signin.html">Sign In</a>
+    </div>
+  </div>
+
+  <script src="forgetpass.js"></script>
+</body>
+</html>
