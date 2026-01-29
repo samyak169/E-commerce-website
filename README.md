@@ -1,2 +1,2 @@
 # E-commerce-website
-Developed a responsive front-end user authentication web application featuring Sign Up, Sign In, and Forgot Password modules. The project focuses on clean UI design, client-side form validation, and interactive user experience using HTML, CSS, and JavaScript. 
+# This project is a frontend-based authentication system built using HTML, CSS, and JavaScript. It includes core features such as Sign Up, Sign In, and Forgot       Password, demonstrating a basic user authentication flow with a clean and responsive user interface. The project focuses on client-side validation, structured     design, and fundamental web development concepts, making it suitable for learning and further enhancement with backend integration.
